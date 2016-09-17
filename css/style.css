@@ -1,0 +1,36 @@
+body {
+text-align: center;
+background-color: #262626; 
+background-size: 100% 1.2em;}
+
+row {
+  position: center;
+}
+
+.im-centered { margin: auto; max-width: 750px;}
+
+h1 {
+  font-family: 'Candal', sans-serif;
+}
+
+.shadow {
+  font-family: 'Calibri', serif;
+  font-size: 3.7em;
+  max-width: 200px;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  background-color:  #b7c181;
+  box-shadow: -10px 10px 20px #0d0d0d;
+}
+
+.shadowmid {
+  font-family: 'Calibri', serif;
+  font-size: 2.7em;
+  max-width: 250px;
+  /*height: auto;
+  margin: auto;*/
+  padding: auto;
+  background-color:  #b7c181;
+  box-shadow: -10px 10px 20px #0d0d0d;
+}
