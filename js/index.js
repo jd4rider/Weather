@@ -12,7 +12,7 @@ $(document).ready(function() {
 
   function codeLatLong(lat, lng) {
         var latlng = ""+lat+","+lng+"";
-        var gurl = 'http://maps.googleapis.com/maps/api/geocode/json?latlng='+latlng+'&sensor=false'
+        var gurl = 'https://maps.googleapis.com/maps/api/geocode/json?latlng='+latlng+'&sensor=false'
         $.getJSON(gurl, function(results) {
             if (results.status == 'OK') {
                 for (var i = 0; i < results.results[0].address_components.length; i++) {
